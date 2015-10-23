@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mav_light_blue">#207ad4</color>
+    <color name="mav_dark_blue">#144c85</color>
+    <color name="mav_blue">#1a64ae</color>
+    
+    <color name="login_cyan">#00bff3</color>
+    <color name="login_dark_cyan">#0199c3</color>
+    <color name="login_light_cyan">#6cdbf9</color>
+    
+    <color name="register_green">#8dc63f</color>
+    <color name="register_dark_green">#6c9730</color>
+    <color name="register_light_green">#afe763</color>
+    
+    <color name="btn_next_green">#2ecc71</color>
+    <color name="btn_next_dark_green">#018e3d</color>
+    <color name="btn_next_light_green">#40e686</color>
+    
+    <color name="btn_close_red">#fa5454</color>
+    <color name="btn_close_dark_red">#d83e3e</color>
+    <color name="btn_close_light_red">#f77878</color>
+    
+    <color name="btn_refresh_silver">#bdc3c7</color>
+    <color name="btn_refresh_dark_silver">#8f8f8f</color>
+    <color name="btn_refresh_light_silver">#d6d8d9</color>
+    
+    <color name="btn_login_forgot_purple">#ad55f7</color>
+    <color name="btn_login_forgot_dark_purple">#9548d6</color>
+    <color name="btn_login_forgot_light_purple">#bf77fb</color>
+    
+    <color name="btn_concert">#19d500</color>
+    <color name="btn_concert_dark">#15b400</color>
+    <color name="btn_concert_light">#1cf200</color>
+    
+    <color name="btn_contest">#00a2e8</color>
+    <color name="btn_contest_dark">#018bc7</color>
+    <color name="btn_contest_light">#00b2ff</color>
+    
+    <color name="btn_exhibition">#a349a4</color>
+    <color name="btn_exhibition_dark">#873d88</color>
+    <color name="btn_exhibition_light">#c459c5</color>
+    
+    <color name="btn_feast">#f0e200</color>
+    <color name="btn_feast_dark">#d8cb00</color>
+    <color name="btn_feast_light">#fff000</color>
+    
+    <color name="btn_gaming">#ff8400</color>
+    <color name="btn_gaming_dark">#e47703</color>
+    <color name="btn_gaming_light">#fc9b32</color>
+    
+    <color name="btn_party">#00cbc9</color>
+    <color name="btn_party_dark">#00b1af</color>
+    <color name="btn_party_light">#00f5f3</color>
+    
+    <color name="btn_sports">#eb092e</color>
+    <color name="btn_sports_dark">#d00829</color>
+    <color name="btn_sports_light">#fe1138</color>
+    
+    <color name="btn_workshop">#28d25b</color>
+    <color name="btn_workshop_dark">#24b850</color>
+    <color name="btn_workshop_light">#30f46b</color>
+    
+    <color name="btn_others">#3f48cc</color>
+    <color name="btn_others_dark">#363eb0</color>
+    <color name="btn_others_light">#4e59f7</color>
+    
+    <color name="btn_home_menu">#515151</color>
+    <color name="btn_home_menu_dark">#414141</color>
+    <color name="btn_home_menu_light">#616161</color>
+    
+    <color name="btn_bg_menu">#414141</color>
+    <color name="btn_bg_menu_dark">#313131</color>
+    <color name="btn_bg_menu_light">#515151</color>
+    
+    <color name="btn_help_yellow">#f0e200</color>
+    <color name="btn_help_dark_yellow">#d8cb00</color>
+    <color name="btn_help_light_yellow">#fff000</color>
+    
+</resources>

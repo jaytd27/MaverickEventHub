@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg"
+android:orientation="vertical" >
+
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+
+    <Button
+        android:id="@+id/btn_back"
+        style="@style/loginType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:enabled="false"
+        android:text="Register"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/loginType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_xml_login"
+        android:drawableLeft="@drawable/btn_login"
+        android:gravity="center_vertical|center_horizontal|right"
+        android:paddingLeft="20dp"
+        android:paddingRight="60dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/loginType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_xml_register"
+        android:drawableLeft="@drawable/btn_register"
+        android:gravity="center_vertical|center_horizontal|right"
+        android:paddingLeft="20dp"
+        android:paddingRight="35dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+    
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="25dp" />
+    <Button
+        android:id="@+id/button4"
+        style="@style/loginType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:enabled="false"
+        android:text=""
+        android:visibility="invisible" />
+    
+
+</LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="server.maverickeventhub"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+	<uses-permission
+	    android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="server.maverickeventhub.StartUp"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="server.maverickeventhub.Authentication"></activity>
+        
+        <activity android:name="server.maverickeventhub.Register"></activity>
+        
+        <activity android:name="server.maverickeventhub.Login"></activity>
+        <activity android:name="server.maverickeventhub.Home"></activity>
+        <activity android:name="server.maverickeventhub.Registered"></activity>
+        <activity android:name="server.maverickeventhub.ForgotPassword"></activity>
+        <activity android:name="server.maverickeventhub.ForgotUsername"></activity>
+        <activity android:name="server.maverickeventhub.ForgotPasswordDone"></activity>
+        <activity android:name="server.maverickeventhub.ForgotUsernameDone"></activity>
+        <activity android:name="server.maverickeventhub.Profile"></activity>
+        <activity android:name="server.maverickeventhub.Create"></activity>
+        <activity android:name="server.maverickeventhub.Edit"></activity>
+        <activity android:name="server.maverickeventhub.Concert"></activity>
+        <activity android:name="server.maverickeventhub.Contest"></activity>
+        <activity android:name="server.maverickeventhub.Exhibition"></activity>
+        <activity android:name="server.maverickeventhub.Feast"></activity>
+        <activity android:name="server.maverickeventhub.Gaming"></activity>
+        <activity android:name="server.maverickeventhub.Party"></activity>
+        <activity android:name="server.maverickeventhub.Sports"></activity>
+        <activity android:name="server.maverickeventhub.Workshop"></activity>
+        <activity android:name="server.maverickeventhub.Others"></activity>
+        <activity android:name="server.maverickeventhub.ViewConcert"></activity>
+        <activity android:name="server.maverickeventhub.ViewContest"></activity>
+        <activity android:name="server.maverickeventhub.ViewExhibition"></activity>
+        <activity android:name="server.maverickeventhub.ViewFeast"></activity>
+        <activity android:name="server.maverickeventhub.ViewParty"></activity>
+        <activity android:name="server.maverickeventhub.ViewGaming"></activity>
+        <activity android:name="server.maverickeventhub.ViewWorkshop"></activity>
+        <activity android:name="server.maverickeventhub.ViewOther"></activity>
+        <activity android:name="server.maverickeventhub.ViewSports"></activity>        
+        <activity android:name="server.maverickeventhub.EditConcert"></activity>
+        <activity android:name="server.maverickeventhub.EditContest"></activity>
+        <activity android:name="server.maverickeventhub.EditExhibition"></activity>
+        <activity android:name="server.maverickeventhub.EditFeast"></activity>
+        <activity android:name="server.maverickeventhub.EditParty"></activity>
+        <activity android:name="server.maverickeventhub.EditGaming"></activity>
+        <activity android:name="server.maverickeventhub.EditWorkshop"></activity>
+        <activity android:name="server.maverickeventhub.EditOther"></activity>
+        <activity android:name="server.maverickeventhub.EditSports"></activity>   
+        
+        
+    </application>
+
+</manifest>

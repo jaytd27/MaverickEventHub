@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg"
+android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1.1"
+    android:orientation="vertical" >
+
+     <Button
+        android:id="@+id/btn_back"
+        style="@style/loginType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:enabled="false"
+        android:text="Register"
+        android:visibility="invisible" />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+     <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="2.0" >
+
+        <Button
+            android:id="@+id/btn_profile_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@android:color/transparent"
+            android:text="BACK"
+            android:textColor="@drawable/btn_xml_close"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@+id/tv_user_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="2.0" >
+
+        <Button
+            android:id="@+id/btn_profile_help"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@android:color/transparent"
+            android:text="HELP"
+            android:textColor="@drawable/btn_xml_help"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+	</LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" > 
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@+id/tv_profile_old_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="1dp"
+            android:background="#147dc8"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="Current Password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+ 
+    </LinearLayout>   
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="0.6" >
+
+        <EditText
+            android:id="@+id/et_profile_old_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#147dc8"
+            android:gravity="center|left"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp" >
+
+            <requestFocus />
+        </EditText>
+ 
+    </LinearLayout>   
+    
+    
+    
+    </LinearLayout> 
+    
+    </LinearLayout>
+        
+        
+    </LinearLayout>
+    </LinearLayout>
+    
+     </LinearLayout>   
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" > 
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@+id/tv_profile_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="1dp"
+            android:background="#03d8e0"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="New Password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+ 
+    </LinearLayout>   
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="0.6" >
+
+        <EditText
+            android:id="@+id/et_profile_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#03d8e0"
+            android:gravity="center|left"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp" >
+
+            <requestFocus />
+        </EditText>
+ 
+    </LinearLayout>   
+    
+    
+    
+    </LinearLayout> 
+    
+    </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+            
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" > 
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@+id/tv_profile_confirm_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="1dp"
+            android:background="#03d8e0"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="Confirm Password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+ 
+    </LinearLayout>   
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="0.6" >
+
+        <EditText
+            android:id="@+id/et_profile_confirm_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#03d8e0"
+            android:gravity="center|left"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp" >
+
+            <requestFocus />
+        </EditText>
+ 
+    </LinearLayout>   
+    
+    
+    
+    </LinearLayout> 
+    
+    </LinearLayout>
+        </LinearLayout>
+    
+    </LinearLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1.0" >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn_profile_update"
+        style="@style/loginType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_xml_gaming"
+        android:drawableLeft="@drawable/btn_profile_update"
+        android:gravity="center_vertical|center_horizontal|right"
+        android:paddingLeft="20dp"
+        android:paddingRight="35dp"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+</LinearLayout>
+</LinearLayout>
+
